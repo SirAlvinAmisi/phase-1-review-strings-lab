@@ -9,5 +9,6 @@ const excitedWelcomeMessage = welcomeMessage.toUpperCase();
 console.log(excitedWelcomeMessage);
 
 const shortGreeting = `Welcome, ${currentUser.slice(0, 1)}!`;
+// also counts the spaces as indexes, noted
 
 console.log(shortGreeting);
